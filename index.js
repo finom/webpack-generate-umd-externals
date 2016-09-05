@@ -20,7 +20,7 @@ module.exports = function generateExternals(data) {
 
         namedAMDModulesStr += `define('${path}', ['${rootModuleName}'], function(${rootVariableName}){
             return ${value};
-        })`;
+        });`;
     }
 
     class NamedAMDModulesPlugin {
