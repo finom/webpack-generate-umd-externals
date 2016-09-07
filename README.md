@@ -15,7 +15,7 @@ Matreshka.js is extensible so we can make plugins for it. Plugins should make po
 This function makes possible to get an access to only needed parts of the framework when you develop a plugin. It gets an object with keys as paths to modules and values as global vars which represent these modules and returns webpack externals and a plugin which concatenates a bundle with named AMD definitions.
 
 ```js
-const generateExternals = require('./webpack-generate-externals');
+const generateExternals = require('webpack-generate-umd-externals');
 
 const { externals, NamedAMDModulesPlugin } = generateExternals({
     'matreshka/bindnode': 'Matreshka.bindNode',
