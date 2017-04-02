@@ -1,4 +1,4 @@
-const ConcatSource = require('webpack-core/lib/ConcatSource');
+const { ConcatSource } = require("webpack-sources");
 
 module.exports = function generateExternals(data) {
     const paths = Object.keys(data);

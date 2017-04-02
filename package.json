@@ -1,6 +1,6 @@
 {
   "name": "webpack-generate-umd-externals",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The function is created for very rare use case. Basically it's created for Matreshka.js needs. This doesn't mean you cannot use it in your project, this means I just doubt it :)",
   "main": "index.js",
   "scripts": {
